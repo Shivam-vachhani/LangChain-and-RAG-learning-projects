@@ -4,3 +4,30 @@
 
 # LangGraph
 .langgraph_api/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Secrets and API Keys (CRITICAL)
+.env
+*.env
+secrets.json
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Large RAG files / Local databases
+*.db
+*.sqlite
+data/
+chroma_db/
+faiss_index/
+
+# Mac system files
+.DS_Store
